@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  margin: auto;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #222;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin-top: 0.25em;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  filter: invert(1);
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.world {
+  display: inline-block;
+}
+
+.grid {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+.grid > .row {
+  height: 25px;
+  display: block;
+}
+
+.row-header, .row-placeholder {
+  width: 15px;
+  height: 25px;
+  color: #fff;
+  margin: 2px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.row-header {
+  background-color: #ccc;
+}
+
+.grid .locus {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  color: #eee;
+}
+
+.grid .col-header {
+  background-color: #ccc;
+  color: #fff;
+  width: 25px;
+  height: 21px;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.settings {
+  display: inline-block;
+  padding: 2em 0;
+  width: 100%;
+}
+
+.settings > div {
+  margin: 1em 0;
+}
+
+.statistics {
+  color: #888;
+  margin-bottom: 1em;
+}
+
+.statistics span {
+  margin: 1em;
+}
